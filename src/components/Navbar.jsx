@@ -34,8 +34,9 @@ function Navbar() {
             )}
           </div>
           <Link to="/groceries" className="hover:text-green-200">Groceries List</Link>
-          <Link to="/weeklyplan" className="hover:text-green-200">Weekly Plans</Link>
-{/*           <Link to="/about" className="hover:text-green-200">About</Link> */}
+          <Link to="/weeklyplan" className="hover:text-green-200  pr-6">Weekly Plans</Link>
+
+          {/* <Link to="/about" className="hover:text-green-200">About</Link> */}
         </div>
       </div>
     </nav>
